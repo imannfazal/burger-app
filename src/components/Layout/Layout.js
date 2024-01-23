@@ -4,8 +4,8 @@ import Auxilliary from '../../hoc/Auxilliary'
 const Layout = (props) => {
   return (
     <Auxilliary>
-        <div>SideBar, Toolbar, Backdrop</div>
-        <main>
+        <div style={{marginTop: 21}}>SideBar, Toolbar, Backdrop</div>
+        <main style={{marginTop: 21}}>
             {props.children}
         </main>
     </Auxilliary>
